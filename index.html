@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevJobs | Ofertas TI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Google fonnts-->
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--De bootstrap primer link para cambiarle tipo de letra-->
+
+    <style>
+        body {
+            font-family: "Caveat Brush", cursive;
+            font-weight: 400;
+            font-style: italic;
+            color: black;
+            margin: 0;
+            background-color: white;
+        }
+    </style>
+    <!-- Para dar diseño y apariencia/ tipo de letra / letra gruesa o delgada/ margin espacio fuera del elemento-->
+</head>
+
+<body>
+    <!--Div es para agrupar-->
+    <div style="max-width: 700px; margin: 0 auto; background: white; padding: 20px; min-height: 100vh;">
+
+        <header style="border-bottom: 2px solid #007bff; padding-bottom: 20px; margin-bottom: 30px;">
+            <table width="100%" border="0">
+                <tr>
+                    <td>
+                        <h1 style="margin: 0; color: #007bff;">
+                            <i class="bi bi-code-slash"></i> DevJobs
+                        </h1>
+                    </td>
+                    <td align="right">
+                        <nav>
+                            <a href="#" style="text-decoration: none; color: #555; margin-left: 15px;">Empresas</a>
+                            <a href="#" style="text-decoration: none; color: #555; margin-left: 15px;">Blog</a>
+                            <a href="#" style="text-decoration: none; color: #555; margin-left: 15px;">Login</a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </header>
+
+        <main>
+            <section style="text-align: center; background-color: #e9ecef; padding: 40px; border-radius: 10px;">
+                <h2>🚀 Encuentra tu primer empleo ti</h2>
+                <p>Ofertas exclusivas para Juniors y Trainees en Perú</p>
+
+                <input type="text" placeholder="Ej. Desarrollador Java"
+                    style="padding: 12px; width: 60%; border: 1px solid #ccc;">
+                <button
+                    style="padding: 12px 20px; background-color: #007bff; color: white; border: none; cursor: pointer;">
+                    <i class="bi bi-search"></i> Buscar
+                </button> <!--Boton de buscar en pixeles, color y icono con boostrap -->
+            </section>
+
+            <br><br>
+            <hr><br>
+
+            <h3><i class="bi bi-briefcase"></i> Últimas Ofertas Publicadas</h3>
+
+            <table width="100%" border="1" cellpadding="10" cellspacing="0"
+                style="border-collapse: collapse; border-color: #ddd;">
+                <thead> <!--encabezado-->
+                    <tr style="background-color: blue; color: white;">
+                        <th>Fecha</th>
+                        <th>Puesto</th>
+                        <th>Empresa</th>
+                        <th>Modalidad</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody> <!--Agrupa las filas de datos dentro de una tabla-->
+                    <tr>
+                        <td align="center">Hace 2h</td>
+                        <td>
+                            <strong>Frontend Developer Trainee</strong><br>
+                            <p style="color:#555;">HTML, CSS, JavaScript</p>
+                        </td>
+                        <td>TechSolutions SAC</td>
+                        <td align="center">🏠 Remoto</td>
+                        <td align="center">
+                            <a href="postular.html"
+                                style="background-color: green; color: white; padding: 8px 12px; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                Aplicar
+                            </a>
+                        </td>
+                    </tr>
+                    <!--Abres un tr junto con un td para escribir por linea-->
+                    <tr>
+                        <td align="center">Ayer</td>
+                        <td>
+                            <strong>Soporte Técnico L1</strong><br>
+                            <p style="color: #555;">Mantenimiento de PC y Redes</p>
+                        </td>
+                        <td>Banco BCP</td>
+                        <td align="center">🏢Presencial</td>
+                        <td align="center">
+                            <a href="postular.html"
+                                style="background-color: green; color: white; padding: 8px 12px; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                Aplicar
+                            </a>
+                        </td>
+                    </tr>
+                    <!--Abres un tr junto con un td para escribir por linea-->
+                    <tr>
+                        <td align="center">Hace 2 días</td>
+                        <td>
+                            <strong>Practicante .NET / C#</strong><br>
+                            <p style="color: #555;">SQL Server y Visual Studio</a></p>
+                        </td>
+                        <td>SoftwareOne</td>
+                        <td align="center">🏠 Híbrido</td>
+                        <td align="center">
+                            <a href="postular.html"
+                                style="background-color: green; color: white; padding: 8px 12px; text-decoration: none; border-radius: 5px; font-size: 14px;">
+                                Aplicar
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+
+        <br><br>
+        <footer style="text-align: center; border-top: 1px solid white; padding-top: 20px;">
+            <p style="color: #007bff;"> 2026 DevJobs Perú - Hecho por Daniela "psd: Sufri"</p>
+        </footer><!--Pie de pagina-->
+
+    </div> <!--Cerrando la agrupacion-->
+
+</body>
+
+</html>
